@@ -8,7 +8,10 @@
 
 While not necessary, I recommend reading Dortania's [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) entirely before we start to get a feel of how OpenCore/Hackintosh works. Don't worry if you're new to Hackintosh and get overwhelmed with the amount of information there. All the files have been prepared for you in this repo; you just need to follow the instruction below.
 
-__Script can also be run in Windows, just download [iasl binary](https://acpica.org/downloads/binary-tools) and replace it in tools/asl__. (Maybe you also need installation of Git Bash).
+For `./buils.sh` to run, IASL tools are required. Install with:
+* `brew install --cask maciasl` on macOS
+* `sudo apt install iasl` on Linux/Ubuntu
+* Download [iasl binary](https://acpica.org/downloads/binary-tools) and add it to the $PATH on Windows. (Maybe you also need installation of Git Bash or WSL).
 
 ## Step 0: Clone this repo
 
